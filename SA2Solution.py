@@ -35,8 +35,10 @@ while carryOn:
         cary+=2
         bgy+=2
       if event.key==pygame.K_LEFT:
+	if carx>=50:
           carx-=10
       if event.key==pygame.K_RIGHT:
+	 if carx<=550:
           carx+=10
           
       #Enter code for enter key here
