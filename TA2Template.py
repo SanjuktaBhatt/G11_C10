@@ -19,7 +19,7 @@ while carryOn:
     bgImg_location= "C:/Users/dell/Documents/img/back_ground.jpg" 
     
     bgImg=pygame.image.load(bgImg_location).convert_alpha()
-    bgImg_scaled=pygame.transform.smoothscale(bgImg,(600,600))
+    bgImg_scaled=pygame.transform.smoothscale(bgImg,(600,800))
     screen.blit(bgImg_scaled,[0,0])
     
     #Change location of background image according to the absolute path you have got in your computer
